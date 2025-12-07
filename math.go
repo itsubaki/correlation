@@ -33,7 +33,7 @@ func Sub(x []float64, y float64) []float64 {
 	return z
 }
 
-func isClose(a, b float64, tol ...float64) bool {
+func IsClose(a, b float64, tol ...float64) bool {
 	atol, rtol := func() (float64, float64) {
 		if len(tol) == 0 {
 			return 1e-8, 1e-5

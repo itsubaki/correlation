@@ -15,7 +15,7 @@ func Pearson(x, y []float64) float64 {
 	}
 	denom := sx2 * sy2
 
-	if isClose(denom, 0) {
+	if IsClose(denom, 0) {
 		return 0
 	}
 

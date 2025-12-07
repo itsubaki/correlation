@@ -13,7 +13,7 @@ func Spearman(x, y []float64) float64 {
 	}
 
 	denom := float64(n*n*n) - float64(n) // n^3 - n
-	if isClose(denom, 0) {
+	if IsClose(denom, 0) {
 		return 0
 	}
 
