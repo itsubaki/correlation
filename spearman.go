@@ -21,12 +21,12 @@ func Spearman(x, y []float64) float64 {
 }
 
 func rank(data []float64) []float64 {
-	n := len(data)
 	type pair struct {
 		value float64
 		index int
 	}
 
+	n := len(data)
 	tmp := make([]pair, n)
 	for i := range n {
 		tmp[i] = pair{data[i], i}
