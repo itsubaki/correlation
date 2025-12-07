@@ -1,6 +1,6 @@
 # correlation
 
-* Computing correlation coefficients
+* Correlation coefficients
 
 ## Links
 
