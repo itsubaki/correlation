@@ -1,6 +1,6 @@
 # correlation
 
- - Correlation coefficients in Go
+Correlation coefficients library in Go.
 
 ## Links
 
