@@ -1,7 +1,5 @@
 # correlation
 
-Correlation coefficients library in Go.
-
 ## Links
 
 1. [「新しい相関係数」について](https://qiita.com/Islay_tr/items/dd427ba86ba11bd25626)
